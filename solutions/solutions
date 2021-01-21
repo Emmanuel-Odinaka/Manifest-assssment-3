@@ -1,0 +1,11 @@
+a) select count(ID) as NumberOfUsers from teamodinaka2021;
+b) select count(*) from teamodinaka2021 where department = 'Accounting';
+c) select count(*) from teamodinaka2021 where status = 'Pending';
+d) select * from teamodinaka2021 limit 5;
+e) select * from teamodinaka2021 where age > 18 and age < 26;
+f) select * from teamodinaka2021 where createed_dt = '2020-02-01';
+g) select * from teamodinaka2021 where createed_dt between '2020-04-01' and '2020-06-01'; 
+h) update teamodinaka2021 set status = 'Activated' where status = 'Pending';
+i) update teamodinaka2021 set name = 'Timothy' where name = 'Tim';
+j) select count(name), department from teamodinaka2021 group by department;
+
